@@ -109,3 +109,7 @@ header{align-items:center;padding-top:10px;padding-bottom:10px}
 #lg{--cw:min(70vw,300px,calc(42vh*1.115))}
 #lg .vb{white-space:nowrap;font-size:calc(var(--cw)/14.5);margin:0}
 #lg .vb span{display:inline;margin:0 .22em}
+
+/* v7 */
+.join{margin-top:56px;padding-top:32px;border-top:1px solid var(--line)}.join form{max-width:560px}.join .ck{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:14.5px}.join .ck input{margin-top:4px;flex:none}.join input[type=file]{padding:9px}
+@media(min-width:781px){.chips{flex-wrap:nowrap;gap:6px}.chips a{padding:6px 11px;font-size:13.5px;white-space:nowrap}}
