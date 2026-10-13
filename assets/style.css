@@ -105,3 +105,7 @@ footer{display:block;padding:44px var(--pad) calc(28px + env(safe-area-inset-bot
 header{align-items:center;padding-top:10px;padding-bottom:10px}
 .eyebrow i{background:#FFC83D!important}
 @media(max-width:780px){header{position:static}.brand svg{width:40px}.bt b{font-size:19px}}
+/* v6b: modal verbs on ONE line, modal fits short screens */
+#lg{--cw:min(70vw,300px,calc(42vh*1.115))}
+#lg .vb{white-space:nowrap;font-size:calc(var(--cw)/14.5);margin:0}
+#lg .vb span{display:inline;margin:0 .22em}
