@@ -40,8 +40,8 @@ main{padding:0 var(--pad)}
 .box.hl{border-color:var(--acc);border-width:2px}
 .price{font:600 34px Newsreader,serif}[lang=ar] .price{font-family:Cairo}
 .box ul{padding-inline-start:20px;margin:12px 0;color:var(--mute)}
-.tl{border-inline-start:2px solid var(--line);padding-inline-start:20px;margin-top:24px}
-.tl div{margin-bottom:18px}.tl b{display:block}.tl span{color:var(--mute);font-size:15px}
+.tline{border-inline-start:2px solid var(--line);padding-inline-start:20px;margin-top:24px}
+.tline div{margin-bottom:18px}.tline b{display:block}.tline span{color:var(--mute);font-size:15px}
 form{display:grid;gap:14px;max-width:520px}label{display:grid;gap:4px;font-weight:500;font-size:15px}
 input,select,textarea{font:inherit;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
 .hp{position:absolute;left:0;top:0;width:1px;height:1px;opacity:0;overflow:hidden;pointer-events:none}
